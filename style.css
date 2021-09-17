@@ -54,7 +54,7 @@
 .text-rotate {
     writing-mode: vertical-lr;
     padding: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .team-people__item > img {
     object-fit: cover;
@@ -65,6 +65,7 @@
 .text-name {
     align-self: flex-start;
     padding: 5px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width:840px){
@@ -94,5 +95,13 @@
     }
     .right__text-container{
         padding-top: 30px;
+    }
+}
+@media only screen and (max-width:400px){
+    .text-name{
+       font-size: 10px; 
+    }
+    .text-rotate {
+        font-size: 0.6em;
     }
 }
